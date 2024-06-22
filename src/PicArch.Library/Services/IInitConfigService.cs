@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PicArch.Library.Services
 {
-    public interface IInitService
+    public interface IInitConfigService
     {
         InitConfig? GetInitConfig();
     }

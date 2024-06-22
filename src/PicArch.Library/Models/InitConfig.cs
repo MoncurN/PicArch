@@ -8,6 +8,6 @@ namespace PicArch.Library.Models
 {
     public class InitConfig
     {
-        public string ExcelPath { get; set; }
+        public string? ExcelPath { get; set; }
     }
 }

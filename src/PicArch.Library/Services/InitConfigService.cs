@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace PicArch.Library.Services;
 
-public class InitService : IInitService
+public class InitConfigService : IInitConfigService
 {
     private readonly string _initConfigFilePath = "InitConfig.json";
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PicArch.ConsoleApp.Screens;
 
-public class ExcelPathScreen
+public class InitConfigScreens
 {
     public string? AskUserForExcelPath()
     {
