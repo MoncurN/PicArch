@@ -7,6 +7,7 @@ using PicArch.Library.Services;
 var serviceCollection = new ServiceCollection();
 
 serviceCollection.AddSingleton<IMainFlow, MainFlow>();
+serviceCollection.AddSingleton<MainScreens>();
 
 serviceCollection.AddSingleton<IInitConfigFlow, InitConfigFlow>();
 serviceCollection.AddSingleton<InitConfigScreens>();
